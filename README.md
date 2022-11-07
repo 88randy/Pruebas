@@ -1,2 +1,2 @@
-# Pruebas
-Pruebas técnicas
+# Prueba
+Prueba técnica
