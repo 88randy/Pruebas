@@ -1,0 +1,16 @@
+3. Describa en menos de 10 palablas por comando para que sirven cada uno de estos:
+
+SO                  COMANDO                     RESPUESTA
+Cualquiera          git stash                   Guarda el trabajo en lista temporal para recuperarlo después.
+Cualquiera          git add .                   Preparar archivos nuevos, modificados, eliminados en la carpeta actual.
+Cualquiera          pdflatex                    Herramienta que convierte fuentes de Latex en PDF.
+linux               kill -HUP 55455             Recarga el proceso 55455.
+linux               service vsftpd restart      Reinicia el servicio vsftpd.
+linux               nano                        Abre el editor de texto nano.
+linux               yum install nginx           Gestor de paquetes que instalará nginx.
+
+
+
+Fuentes consultadas:
+
+https://linuxize.com/post/kill-command-in-linux/

@@ -1,0 +1,20 @@
+1. Desarrolle un programa en python 3.8 o superior que haga las siguientes operaciones:
+• Importe el móodulo jinja2.
+• importar el móodulo requests o uno equivalente.
+• hacer un llamado al api https://catfact.ninja/ para traer una lista
+de hechos sobre los gatos.
+• hacer una plantilla html con una lista simple (<ul>y <li>) en
+donde se itere sobre la lista de hechos sobre los gatos.
+• cargar la plantilla con el m´odulo jinja2 y renderizarla con los hechos sobre los gatos.
+• imprimir en la consola el resultado de del renderizado del template
+de jinja2.
+• debe imprimir el html de una lista desordenada (ul) donde cada
+item (li) es un hecho sobre los gatos.
+
+
+
+Fuentes consultadas:
+
+https://jinja.palletsprojects.com/en/3.1.x/
+https://zetcode.com/python/jinja/
+https://catfact.ninja/facts

@@ -1,0 +1,23 @@
+5. Apps script es una plataforma que haciendo uso de javascript permite la automatizacion de tareas simples sobre google docs. 
+
+Investigue como colocar una imagen en el footer de un doc cualquiera. 
+Describa el codigo que necesitaria escribir para realizar esta tarea. 
+No escriba codigo en apps script, solo describalo.
+
+A continuación se describe la forma de colocar una imagen en el footer de un doc con apps script.
+
+1 - Abrimos el documento y damos click en "Extensiones" luego en "Apps Scripts".
+2 - Una vez dentro de apps scripts creamos una función que no recibe parámetros que llamaremos "insert_image()".
+3 - Dentro de la función creamos una variable "image" que recibira la url de la imagen utilizando el método "fetch" del objeto "UrlFetchApp".
+4 - Creamos otra variable "template_id" que recibirá la url del documento que vamos a modificar.
+5 - Creamos una variable "doc" que será una instancia del objeto "DocumentApp.openById()" que recibe como parámetro el id del documento.
+6 - Obtenemos el footer del documento con el método "getFooter()" y lo guardamos en una variable "footer".
+7 - Utilizamos el método "appendImage()" que recibe como parámetro la variable "image" que creamos anteriormente.
+8 - Ejecutamos la función.
+
+y ya tenemos una imagen colocada en el footer.
+
+
+Fuentes consultadas:
+
+https://linuxize.com/post/kill-command-in-linux/

@@ -1,0 +1,21 @@
+4. Dado el lenguaje definido por:
+
+S → hola A | gracias B | bueno C | final D
+A → amigo C | enemigo mortal C | cliente especial C | soñadora D
+B → de todo corazón C | por la ayuda C | C | por la invitación D
+C →, D| . | . E G | 
+D → pescado | vaca | alimento
+E → A sal | B aguacate
+G → televisor | Computador D
+
+Cuáles de las siguientes composiciones si se pueden obetener de esta gramática:
+
+SI • hola amigo , alimento
+NO • hola soñadora vaca.
+NO • gracias enemigo mortal pescado
+SI • hola cliente especial . . aguacate televisor
+SI • gracias soñnadora alimento
+NO • gracias amigo computador.
+NO • gracias de todo corazóon . cliente especial , pescado sal televisor
+NO • gracias de todo corazón , vaca.
+NO • gracias de todo corazón . cliente especial , pescado sal computador aguacate

@@ -1,0 +1,17 @@
+4. Diseñe en un diagrama entidad relacióon el siguiente sistema:
+
+Todos los días, la flota de esta compañnía de distribución de hidrocarburos (gasolina, acpm y jetfuel) 
+programa el enviío de determinada cantidad de hidrocarburo a una ubicacióon especifica dentro de una ciudad.
+
+La compañía no tiene cobertura en todas las ciudades solo aproximadamente 10 ciudades. 
+por cada pedido además debemos almacenar a qué hora se espere que llegue, 
+a qué hora sale, en qué fecha van a ocurrir las cosas y el usuario que creo el pedido, 
+junto con que fecha y hora lo creo. además, debemos saber que conductor debe hacer el envío 
+y si hay algún documento de remisión u orden de compra debemos almacenar su número de referencia. 
+por otra parte, si el cliente decide que hoy no puede recibir el hidrocarburo solicitado se deberá 
+reprogramar la orden para otro dáa. 
+las ordenes no son directamente asignadas, sino que deben pasar por un proceso de aprobación de dos fases, 
+la primera fase es solicitar aprobación por el área de cartera (para que el cliente no tenga deudas o no este por fuera de su cupo) 
+y la segunda es solicitar una aprobación por parte de logística (para que el camión que va a llevar el hidrocarburo esté disponible). 
+luego de esto entonces el registro queda realmente programado. 
+Una vez entregado se deberá registrar el núumero de la factura en donde se pagará a la empresa este envío.

@@ -1,0 +1,16 @@
+2. Escriba un controlador en flask cuya url sea "/proyecto/<id proyecto>". que realice la siguientes operaciones:
+• Importe el móodulo sqlite3 de python.
+• conectarse al archivo de base de datos sitio.db
+• hacer una consulta en la tabla project y traer todos los resultados que tengan el valor del parametro id_proyecto en cualquier posicion de la columna project_name.
+• traer todos los resulados de esta consulta y convertirlos en un arreglo que se guardara temporalmente con el nombre “proyectos”.
+• hacer una consulta que haga un join entre las tablas user, user_role_association_table y role y traiga todas las columnas.
+• traer todos los resulados de esta consulta y convertirlos en un arreglo que se guardara temporalmente con el nombre “usuarios”.
+• crear in objeto {“projects’: proyectos, “users”:usuarios} en donde cada key corresponde con su variable.
+• convertir el objeto del paso anterior a formato json y enviarlo al navegador del cliente.
+
+Fuentes consultadas:
+
+flask run
+https://inloop.github.io/sqlite-viewer/
+https://developer.mozilla.org/es/docs/Web/HTML/Element/pre
+https://flask.palletsprojects.com/en/2.2.x/quickstart/#a-minimal-application

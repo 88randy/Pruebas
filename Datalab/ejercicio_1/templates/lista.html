@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Cat Facts{% endblock %}</title>
+</head>
+<body>
+    <div class="facts">
+        <p>Facts</p>
+        <ul>
+            {% for fact in content %}
+                <li>{{ fact.fact }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
