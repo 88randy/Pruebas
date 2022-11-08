@@ -2,7 +2,7 @@
 
 Propuesta de solución a los ejercicios planteados.
 
-Dentro de cada archivo ".txt" se encuentran las fuentes que consulté como soporte para resolver los ejercicios.
+Dentro de cada archivo ".txt" luego del planteamento del problema se encuentran las fuentes que consulté como soporte para resolver los ejercicios.
 
 ## Instalación
 
