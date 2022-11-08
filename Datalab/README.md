@@ -5,6 +5,31 @@ Dentro de cada archivo ".txt" se encuentran las fuentes que consulté como sopor
 
 ## Instalación
 
+Crea un entorno virtual.
+
+```bash
+virtualenv entorno
+```
+Activa el entorno
+
+Para windows
+```bash
+entorno\Scripts\activate
+```
+
+Para Linux
+source entorno/bin/activate
+```
+
+
+### Nota:
+
+Si no tienes virtualenv instalado, lo puedes instalar de la siguiente manera
+
+```bash
+pip install virtualenv
+```
+
 Usa el paquete [pip](https://pip.pypa.io/en/stable/) para instalar las dependencias.
 
 ```bash
