@@ -1,4 +1,5 @@
 import json
+import logging
 import requests
 from jinja2 import Environment, FileSystemLoader
 
@@ -9,7 +10,9 @@ def get_data(url):
         res = requests.get(url)
         return json.loads(res.text)
     except requests.exceptions.HTTPError as e:
-        return e.response.text
+        return logging.error(e.response.text)
+    except Exception as e:
+        return logging.error(e)
 
 # Obtenemos el número de la última página
 def get_last_page():
@@ -18,16 +21,21 @@ def get_last_page():
         data_json = get_data(url)
         return data_json.get('last_page')
     except requests.exceptions.HTTPError as e:
-        return e.response.text
+        return logging.error(e.response.text)
+    except Exception as e:
+        return logging.error(e)
 
 # Obtenemos los hechos de cada página y los agregamos al arreglo facts
 def get_facts():
     facts = []
-    for page in range(1, get_last_page() + 1):
-        url = f"https://catfact.ninja/facts/?page={page}"
-        data_json = get_data(url)
-        facts += data_json.get('data')
-    return facts
+    try:
+        for page in range(1, get_last_page() + 1):
+            url = f"https://catfact.ninja/facts/?page={page}"
+            data_json = get_data(url)
+            facts += data_json.get('data')
+        return facts
+    except Exception as e:
+        return logging.error(e)
 
 content = get_facts()
 
