@@ -7,17 +7,20 @@ Dentro de cada archivo ".txt" se encuentran las fuentes que consulté como sopor
 
 Crea un entorno virtual.
 
-```bash
+```
+bash
 virtualenv entorno
 ```
 Activa el entorno
 
 Para windows
-```bash
+```
+bash
 entorno\Scripts\activate
 ```
 
 Para Linux
+```
 source entorno/bin/activate
 ```
 
