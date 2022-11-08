@@ -10,9 +10,13 @@
     <div class="facts">
         <p>Facts</p>
         <ul>
-            {% for fact in content %}
-                <li>{{ fact.fact }}</li>
-            {% endfor %}
+            {% if content %}
+                {% for fact in content %}
+                    <li>{{ fact.fact }}</li>
+                {% endfor %}
+            {% else %}
+                <li>No data found</li>
+            {% endif %}
         </ul>
     </div>
 </body>
