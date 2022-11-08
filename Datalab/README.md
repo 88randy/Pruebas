@@ -26,7 +26,7 @@ source entorno/bin/activate
 ```
 
 
-### Nota:
+**Nota:**
 
 Si no tienes virtualenv instalado, lo puedes instalar de la siguiente manera
 
