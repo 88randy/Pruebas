@@ -1,6 +1,7 @@
 # Prueba técnica We are Datalab
 
 Propuesta de solución a los ejercicios planteados.
+
 Dentro de cada archivo ".txt" se encuentran las fuentes que consulté como soporte para resolver los ejercicios.
 
 ## Instalación
